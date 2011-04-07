@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCE4E11134E2F16007A7441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E10134E2F16007A7441 /* UIKit.framework */; };
+		ABCE4E13134E2F16007A7441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E12134E2F16007A7441 /* Foundation.framework */; };
+		ABCE4E15134E2F16007A7441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */; };
+		ABCE4E1B134E2F16007A7441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4E19134E2F16007A7441 /* InfoPlist.strings */; };
+		ABCE4E1E134E2F16007A7441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4E1D134E2F16007A7441 /* main.m */; };
+		ABCE4E21134E2F16007A7441 /* KiwiFromScratchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4E20134E2F16007A7441 /* KiwiFromScratchAppDelegate.m */; };
+		ABCE4E24134E2F16007A7441 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4E22134E2F16007A7441 /* MainWindow.xib */; };
+		ABCE4E27134E2F16007A7441 /* KiwiFromScratchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4E26134E2F16007A7441 /* KiwiFromScratchViewController.m */; };
+		ABCE4E2A134E2F16007A7441 /* KiwiFromScratchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4E28134E2F16007A7441 /* KiwiFromScratchViewController.xib */; };
+		ABCE4E31134E2F16007A7441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E10134E2F16007A7441 /* UIKit.framework */; };
+		ABCE4E32134E2F16007A7441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E12134E2F16007A7441 /* Foundation.framework */; };
+		ABCE4E33134E2F16007A7441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */; };
+		ABCE4E3B134E2F16007A7441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4E39134E2F16007A7441 /* InfoPlist.strings */; };
+		ABCE4E3E134E2F16007A7441 /* KiwiFromScratchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4E3D134E2F16007A7441 /* KiwiFromScratchTests.h */; };
+		ABCE4E40134E2F16007A7441 /* KiwiFromScratchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4E3F134E2F16007A7441 /* KiwiFromScratchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCE4E34134E2F16007A7441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCE4E03134E2F16007A7441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCE4E0B134E2F16007A7441;
+			remoteInfo = KiwiFromScratch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABCE4E0C134E2F16007A7441 /* KiwiFromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiFromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCE4E10134E2F16007A7441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABCE4E12134E2F16007A7441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABCE4E18134E2F16007A7441 /* KiwiFromScratch-Info.plist */ = {isa = PBXFileReference; path = "KiwiFromScratch-Info.plist"; sourceTree = "<group>"; };
+		ABCE4E1A134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABCE4E1C134E2F16007A7441 /* KiwiFromScratch-Prefix.pch */ = {isa = PBXFileReference; path = "KiwiFromScratch-Prefix.pch"; sourceTree = "<group>"; };
+		ABCE4E1D134E2F16007A7441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABCE4E1F134E2F16007A7441 /* KiwiFromScratchAppDelegate.h */ = {isa = PBXFileReference; path = KiwiFromScratchAppDelegate.h; sourceTree = "<group>"; };
+		ABCE4E20134E2F16007A7441 /* KiwiFromScratchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchAppDelegate.m; sourceTree = "<group>"; };
+		ABCE4E23134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ABCE4E25134E2F16007A7441 /* KiwiFromScratchViewController.h */ = {isa = PBXFileReference; path = KiwiFromScratchViewController.h; sourceTree = "<group>"; };
+		ABCE4E26134E2F16007A7441 /* KiwiFromScratchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchViewController.m; sourceTree = "<group>"; };
+		ABCE4E29134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KiwiFromScratchViewController.xib; sourceTree = "<group>"; };
+		ABCE4E30134E2F16007A7441 /* KiwiFromScratchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiFromScratchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCE4E38134E2F16007A7441 /* KiwiFromScratchTests-Info.plist */ = {isa = PBXFileReference; path = "KiwiFromScratchTests-Info.plist"; sourceTree = "<group>"; };
+		ABCE4E3A134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABCE4E3C134E2F16007A7441 /* KiwiFromScratchTests-Prefix.pch */ = {isa = PBXFileReference; path = "KiwiFromScratchTests-Prefix.pch"; sourceTree = "<group>"; };
+		ABCE4E3D134E2F16007A7441 /* KiwiFromScratchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiFromScratchTests.h; sourceTree = "<group>"; };
+		ABCE4E3F134E2F16007A7441 /* KiwiFromScratchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCE4E09134E2F16007A7441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E11134E2F16007A7441 /* UIKit.framework in Frameworks */,
+				ABCE4E13134E2F16007A7441 /* Foundation.framework in Frameworks */,
+				ABCE4E15134E2F16007A7441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCE4E2C134E2F16007A7441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E31134E2F16007A7441 /* UIKit.framework in Frameworks */,
+				ABCE4E32134E2F16007A7441 /* Foundation.framework in Frameworks */,
+				ABCE4E33134E2F16007A7441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCE4E01134E2F16007A7441 = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E16134E2F16007A7441 /* KiwiFromScratch */,
+				ABCE4E36134E2F16007A7441 /* KiwiFromScratchTests */,
+				ABCE4E0F134E2F16007A7441 /* Frameworks */,
+				ABCE4E0D134E2F16007A7441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCE4E0D134E2F16007A7441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E0C134E2F16007A7441 /* KiwiFromScratch.app */,
+				ABCE4E30134E2F16007A7441 /* KiwiFromScratchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCE4E0F134E2F16007A7441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E10134E2F16007A7441 /* UIKit.framework */,
+				ABCE4E12134E2F16007A7441 /* Foundation.framework */,
+				ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABCE4E16134E2F16007A7441 /* KiwiFromScratch */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E1F134E2F16007A7441 /* KiwiFromScratchAppDelegate.h */,
+				ABCE4E20134E2F16007A7441 /* KiwiFromScratchAppDelegate.m */,
+				ABCE4E22134E2F16007A7441 /* MainWindow.xib */,
+				ABCE4E25134E2F16007A7441 /* KiwiFromScratchViewController.h */,
+				ABCE4E26134E2F16007A7441 /* KiwiFromScratchViewController.m */,
+				ABCE4E28134E2F16007A7441 /* KiwiFromScratchViewController.xib */,
+				ABCE4E17134E2F16007A7441 /* Supporting Files */,
+			);
+			path = KiwiFromScratch;
+			sourceTree = "<group>";
+		};
+		ABCE4E17134E2F16007A7441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E18134E2F16007A7441 /* KiwiFromScratch-Info.plist */,
+				ABCE4E19134E2F16007A7441 /* InfoPlist.strings */,
+				ABCE4E1C134E2F16007A7441 /* KiwiFromScratch-Prefix.pch */,
+				ABCE4E1D134E2F16007A7441 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCE4E36134E2F16007A7441 /* KiwiFromScratchTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E3D134E2F16007A7441 /* KiwiFromScratchTests.h */,
+				ABCE4E3F134E2F16007A7441 /* KiwiFromScratchTests.m */,
+				ABCE4E37134E2F16007A7441 /* Supporting Files */,
+			);
+			path = KiwiFromScratchTests;
+			sourceTree = "<group>";
+		};
+		ABCE4E37134E2F16007A7441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE4E38134E2F16007A7441 /* KiwiFromScratchTests-Info.plist */,
+				ABCE4E39134E2F16007A7441 /* InfoPlist.strings */,
+				ABCE4E3C134E2F16007A7441 /* KiwiFromScratchTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCE4E0B134E2F16007A7441 /* KiwiFromScratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCE4E43134E2F16007A7441 /* Build configuration list for PBXNativeTarget "KiwiFromScratch" */;
+			buildPhases = (
+				ABCE4E08134E2F16007A7441 /* Sources */,
+				ABCE4E09134E2F16007A7441 /* Frameworks */,
+				ABCE4E0A134E2F16007A7441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiFromScratch;
+			productName = KiwiFromScratch;
+			productReference = ABCE4E0C134E2F16007A7441 /* KiwiFromScratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCE4E2F134E2F16007A7441 /* KiwiFromScratchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCE4E46134E2F16007A7441 /* Build configuration list for PBXNativeTarget "KiwiFromScratchTests" */;
+			buildPhases = (
+				ABCE4E2B134E2F16007A7441 /* Sources */,
+				ABCE4E2C134E2F16007A7441 /* Frameworks */,
+				ABCE4E2D134E2F16007A7441 /* Resources */,
+				ABCE4E2E134E2F16007A7441 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCE4E35134E2F16007A7441 /* PBXTargetDependency */,
+			);
+			name = KiwiFromScratchTests;
+			productName = KiwiFromScratchTests;
+			productReference = ABCE4E30134E2F16007A7441 /* KiwiFromScratchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCE4E03134E2F16007A7441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Navel Labs";
+			};
+			buildConfigurationList = ABCE4E06134E2F16007A7441 /* Build configuration list for PBXProject "KiwiFromScratch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABCE4E01134E2F16007A7441;
+			productRefGroup = ABCE4E0D134E2F16007A7441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCE4E0B134E2F16007A7441 /* KiwiFromScratch */,
+				ABCE4E2F134E2F16007A7441 /* KiwiFromScratchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCE4E0A134E2F16007A7441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E1B134E2F16007A7441 /* InfoPlist.strings in Resources */,
+				ABCE4E24134E2F16007A7441 /* MainWindow.xib in Resources */,
+				ABCE4E2A134E2F16007A7441 /* KiwiFromScratchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCE4E2D134E2F16007A7441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E3B134E2F16007A7441 /* InfoPlist.strings in Resources */,
+				ABCE4E3E134E2F16007A7441 /* KiwiFromScratchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABCE4E2E134E2F16007A7441 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCE4E08134E2F16007A7441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E1E134E2F16007A7441 /* main.m in Sources */,
+				ABCE4E21134E2F16007A7441 /* KiwiFromScratchAppDelegate.m in Sources */,
+				ABCE4E27134E2F16007A7441 /* KiwiFromScratchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCE4E2B134E2F16007A7441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCE4E40134E2F16007A7441 /* KiwiFromScratchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCE4E35134E2F16007A7441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCE4E0B134E2F16007A7441 /* KiwiFromScratch */;
+			targetProxy = ABCE4E34134E2F16007A7441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABCE4E19134E2F16007A7441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCE4E1A134E2F16007A7441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABCE4E22134E2F16007A7441 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCE4E23134E2F16007A7441 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ABCE4E28134E2F16007A7441 /* KiwiFromScratchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCE4E29134E2F16007A7441 /* en */,
+			);
+			name = KiwiFromScratchViewController.xib;
+			sourceTree = "<group>";
+		};
+		ABCE4E39134E2F16007A7441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCE4E3A134E2F16007A7441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCE4E41134E2F16007A7441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABCE4E42134E2F16007A7441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ABCE4E44134E2F16007A7441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiFromScratch/KiwiFromScratch-Prefix.pch";
+				INFOPLIST_FILE = "KiwiFromScratch/KiwiFromScratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABCE4E45134E2F16007A7441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiFromScratch/KiwiFromScratch-Prefix.pch";
+				INFOPLIST_FILE = "KiwiFromScratch/KiwiFromScratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABCE4E47134E2F16007A7441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiFromScratch.app/KiwiFromScratch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiFromScratchTests/KiwiFromScratchTests-Prefix.pch";
+				INFOPLIST_FILE = "KiwiFromScratchTests/KiwiFromScratchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ABCE4E48134E2F16007A7441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiFromScratch.app/KiwiFromScratch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiFromScratchTests/KiwiFromScratchTests-Prefix.pch";
+				INFOPLIST_FILE = "KiwiFromScratchTests/KiwiFromScratchTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCE4E06134E2F16007A7441 /* Build configuration list for PBXProject "KiwiFromScratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCE4E41134E2F16007A7441 /* Debug */,
+				ABCE4E42134E2F16007A7441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCE4E43134E2F16007A7441 /* Build configuration list for PBXNativeTarget "KiwiFromScratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCE4E44134E2F16007A7441 /* Debug */,
+				ABCE4E45134E2F16007A7441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCE4E46134E2F16007A7441 /* Build configuration list for PBXNativeTarget "KiwiFromScratchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCE4E47134E2F16007A7441 /* Debug */,
+				ABCE4E48134E2F16007A7441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCE4E03134E2F16007A7441 /* Project object */;
+}

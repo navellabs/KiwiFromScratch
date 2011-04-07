@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KiwiFromScratchTests' target in the 'KiwiFromScratchTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
