@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB633E6C134E343500D5AB13 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB633E6B134E343500D5AB13 /* libKiwi.a */; };
 		ABCE4E11134E2F16007A7441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E10134E2F16007A7441 /* UIKit.framework */; };
 		ABCE4E13134E2F16007A7441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E12134E2F16007A7441 /* Foundation.framework */; };
 		ABCE4E15134E2F16007A7441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB633E6B134E343500D5AB13 /* libKiwi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKiwi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCE4E0C134E2F16007A7441 /* KiwiFromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiFromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCE4E10134E2F16007A7441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABCE4E12134E2F16007A7441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB633E6C134E343500D5AB13 /* libKiwi.a in Frameworks */,
 				ABCE4E31134E2F16007A7441 /* UIKit.framework in Frameworks */,
 				ABCE4E32134E2F16007A7441 /* Foundation.framework in Frameworks */,
 				ABCE4E33134E2F16007A7441 /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		ABCE4E01134E2F16007A7441 = {
 			isa = PBXGroup;
 			children = (
+				AB633E6B134E343500D5AB13 /* libKiwi.a */,
 				ABCE4E49134E3094007A7441 /* Kiwi.xcodeproj */,
 				ABCE4E16134E2F16007A7441 /* KiwiFromScratch */,
 				ABCE4E36134E2F16007A7441 /* KiwiFromScratchTests */,
@@ -475,6 +479,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "KiwiFromScratchTests/KiwiFromScratchTests-Info.plist";
 				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 					"-framework",
 					SenTestingKit,
 				);
@@ -499,6 +505,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "KiwiFromScratchTests/KiwiFromScratchTests-Info.plist";
 				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 					"-framework",
 					SenTestingKit,
 				);
