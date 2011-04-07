@@ -39,20 +39,20 @@
 		ABCE4E10134E2F16007A7441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABCE4E12134E2F16007A7441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABCE4E14134E2F16007A7441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABCE4E18134E2F16007A7441 /* KiwiFromScratch-Info.plist */ = {isa = PBXFileReference; path = "KiwiFromScratch-Info.plist"; sourceTree = "<group>"; };
+		ABCE4E18134E2F16007A7441 /* KiwiFromScratch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiFromScratch-Info.plist"; sourceTree = "<group>"; };
 		ABCE4E1A134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABCE4E1C134E2F16007A7441 /* KiwiFromScratch-Prefix.pch */ = {isa = PBXFileReference; path = "KiwiFromScratch-Prefix.pch"; sourceTree = "<group>"; };
+		ABCE4E1C134E2F16007A7441 /* KiwiFromScratch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiFromScratch-Prefix.pch"; sourceTree = "<group>"; };
 		ABCE4E1D134E2F16007A7441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABCE4E1F134E2F16007A7441 /* KiwiFromScratchAppDelegate.h */ = {isa = PBXFileReference; path = KiwiFromScratchAppDelegate.h; sourceTree = "<group>"; };
+		ABCE4E1F134E2F16007A7441 /* KiwiFromScratchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiFromScratchAppDelegate.h; sourceTree = "<group>"; };
 		ABCE4E20134E2F16007A7441 /* KiwiFromScratchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchAppDelegate.m; sourceTree = "<group>"; };
 		ABCE4E23134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		ABCE4E25134E2F16007A7441 /* KiwiFromScratchViewController.h */ = {isa = PBXFileReference; path = KiwiFromScratchViewController.h; sourceTree = "<group>"; };
+		ABCE4E25134E2F16007A7441 /* KiwiFromScratchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiFromScratchViewController.h; sourceTree = "<group>"; };
 		ABCE4E26134E2F16007A7441 /* KiwiFromScratchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchViewController.m; sourceTree = "<group>"; };
 		ABCE4E29134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KiwiFromScratchViewController.xib; sourceTree = "<group>"; };
 		ABCE4E30134E2F16007A7441 /* KiwiFromScratchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiFromScratchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABCE4E38134E2F16007A7441 /* KiwiFromScratchTests-Info.plist */ = {isa = PBXFileReference; path = "KiwiFromScratchTests-Info.plist"; sourceTree = "<group>"; };
+		ABCE4E38134E2F16007A7441 /* KiwiFromScratchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiFromScratchTests-Info.plist"; sourceTree = "<group>"; };
 		ABCE4E3A134E2F16007A7441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABCE4E3C134E2F16007A7441 /* KiwiFromScratchTests-Prefix.pch */ = {isa = PBXFileReference; path = "KiwiFromScratchTests-Prefix.pch"; sourceTree = "<group>"; };
+		ABCE4E3C134E2F16007A7441 /* KiwiFromScratchTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiFromScratchTests-Prefix.pch"; sourceTree = "<group>"; };
 		ABCE4E3D134E2F16007A7441 /* KiwiFromScratchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiFromScratchTests.h; sourceTree = "<group>"; };
 		ABCE4E3F134E2F16007A7441 /* KiwiFromScratchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiFromScratchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
