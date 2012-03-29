@@ -33,13 +33,6 @@
 			remoteGlobalIDString = ABCE4E0B134E2F16007A7441;
 			remoteInfo = KiwiFromScratch;
 		};
-		ABCE4E53134E3094007A7441 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABCE4E49134E3094007A7441 /* Kiwi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = KiwiDriver;
-		};
 		ABCE4E55134E3094007A7441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABCE4E49134E3094007A7441 /* Kiwi.xcodeproj */;
@@ -60,6 +53,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = F5015B9E11583A77002E9A98;
 			remoteInfo = Kiwi;
+		};
+		ABDC20E71524F0110030998B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCE4E49134E3094007A7441 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3B16542139967B800E9CC6E;
+			remoteInfo = KiwiExamples;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -192,9 +192,9 @@
 		ABCE4E4A134E3094007A7441 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABCE4E54134E3094007A7441 /* KiwiDriver.app */,
 				ABCE4E56134E3094007A7441 /* libKiwi.a */,
 				ABCE4E58134E3094007A7441 /* KiwiTests.octest */,
+				ABDC20E81524F0110030998B /* KiwiExamples.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,6 +245,7 @@
 		ABCE4E03134E2F16007A7441 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Navel Labs";
 			};
 			buildConfigurationList = ABCE4E06134E2F16007A7441 /* Build configuration list for PBXProject "KiwiFromScratch" */;
@@ -272,13 +273,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		ABCE4E54134E3094007A7441 /* KiwiDriver.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = KiwiDriver.app;
-			remoteRef = ABCE4E53134E3094007A7441 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		ABCE4E56134E3094007A7441 /* libKiwi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -291,6 +285,13 @@
 			fileType = wrapper.cfbundle;
 			path = KiwiTests.octest;
 			remoteRef = ABCE4E57134E3094007A7441 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABDC20E81524F0110030998B /* KiwiExamples.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiExamples.octest;
+			remoteRef = ABDC20E71524F0110030998B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
